@@ -12,6 +12,25 @@ body {
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
+
+/*======= Flat Design ===========*/
+
+/*.bg-primary {
+  background-color: rgb(68, 123, 218);
+}*/
+
+/*======= With Background Image ===========*/
+
+.bg-primary {
+  background: url(../img/lazerCat.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*======= With Background Image ===========*/
+
 hr {
   border-color: #rgb(68, 123, 218);
   border-width: 3px;
@@ -43,9 +62,8 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
-.bg-primary {
-  background-color: rgb(68, 123, 218);
-}
+
+
 .bg-dark {
   background-color: #222222;
   color: white;
@@ -358,4 +376,8 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+nav#mainNav {
+    background: #FFF!important;
 }
